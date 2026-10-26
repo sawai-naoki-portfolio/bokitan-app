@@ -1,0 +1,80 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+// key.properties は android/ 直下に置く（.gitignore 済み）。
+// 存在しない場合はデバッグ署名にフォールバックし、release ビルドが失敗しないようにする。
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("key.properties")
+def hasKeystore = keystorePropertiesFile.exists()
+if (hasKeystore) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+// AdMob のアプリ ID は android/admob.properties（.gitignore 済み）から読み込む。
+// 用意されていない場合は Google 公式のテスト用アプリ ID にフォールバックする。
+def admobProperties = new Properties()
+def admobPropertiesFile = rootProject.file("admob.properties")
+if (admobPropertiesFile.exists()) {
+    admobProperties.load(new FileInputStream(admobPropertiesFile))
+}
+def testAdmobAppId = "ca-app-pub-3940256099942544~3347511713"
+def resolvedAdmobAppId = admobProperties.getProperty("admobAppId", testAdmobAppId)
+if (resolvedAdmobAppId == testAdmobAppId) {
+    logger.warn("[AdMob] android/admob.properties が無いため、テスト用アプリ ID でビルドします。" +
+                "ストア配信用のビルドでは admob.properties を配置してください。")
+}
+android {
+    namespace = "com.bokitan.bookkeeping_vocabulary_notebook"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        applicationId = "com.bokitan.bookkeeping_vocabulary_notebook"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdkVersion = flutter.minSdkVersion
+        targetSdk = 36
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        // AndroidManifest.xml の ${admobAppId} に差し込む
+        manifestPlaceholders += [admobAppId: resolvedAdmobAppId]
+    }
+    signingConfigs {
+        if (hasKeystore) {
+            release {
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+            }
+        }
+    }
+    buildTypes {
+        release {
+            if (hasKeystore) {
+                signingConfig signingConfigs.release
+            } else {
+                // key.properties が無い環境（CI など）でも release ビルドを通すための暫定署名。
+                // ストア配信用のビルドでは必ず android/key.properties を配置すること。
+                signingConfig signingConfigs.debug
+            }
+        }
+    }
+
+}
+
+flutter {
+    source = "../.."
+}
