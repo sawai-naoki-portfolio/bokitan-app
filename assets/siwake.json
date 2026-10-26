@@ -1,0 +1,5727 @@
+[
+  {
+    "id": "XiZy7n3WWOPWDcKY",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-01",
+    "description": "商品¥500,000を仕入れ、代金は掛けとした。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "商品の仕入は『仕入』勘定（費用）の増加、代金が掛けのため『買掛金』勘定（負債）の増加となります。"
+  },
+  {
+    "id": "bp2npf6PIKkKLaqI",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-02",
+    "description": "商品¥300,000を現金で販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金での販売により、現金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "PQBa48CuW9jm4BHV",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-03",
+    "description": "商品¥450,000を掛けで販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 450000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 450000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上の場合、売掛金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "6GzoJ9ptBt3A1jkr",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-04",
+    "description": "従業員に給料¥200,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "給料手当",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "給料支払いにより、給料手当（費用）の増加と現金（資産）の減少が記録されます。"
+  },
+  {
+    "id": "PdxeK4waQ9UtypU1",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-05",
+    "description": "事務所の家賃¥100,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支払家賃",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "家賃の支払いでは、支払家賃（費用）の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "J4R6DKdH0PNVoXwC",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-06",
+    "description": "事務用備品¥50,000を現金で購入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "備品",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "備品購入では、備品（資産）の増加と現金（資産）の減少が記録されます。"
+  },
+  {
+    "id": "1TLX6cNwKxI4pdhc",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-07",
+    "description": "以前の掛け売上金¥350,000を現金で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 350000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 350000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売掛金の回収時には、現金（資産）の増加と売掛金（資産）の減少を記録します。"
+  },
+  {
+    "id": "Mj44Fido4Fntx7om",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-08",
+    "description": "掛け買いしていた商品の買掛金¥400,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 400000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "買掛金の支払いでは、負債である買掛金の減少と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "QRvahHjF5ofPMii9",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-09",
+    "description": "仕入れた商品¥50,000の一部が不良品として返品された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入返品",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品処理では、買掛金（負債）の減少と、仕入返品による仕入金額の調整を行います。"
+  },
+  {
+    "id": "xqSBvtwKpB8l2wXD",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-10",
+    "description": "販売した商品¥30,000が返品されたため、売掛金を調整した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上返品",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売上返品では、売掛金（資産）の減少と売上返品勘定による収益の調整を記録します。"
+  },
+  {
+    "id": "wlS31U582BUOIMQ3",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-11",
+    "description": "売掛金¥100,000の回収時、現金割引¥2,000を適用して現金で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 98000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金割引",
+        "amount": 2000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金割引適用時は、受領現金と割引額を分けて記録し、売掛金全体の減少を反映させます。"
+  },
+  {
+    "id": "G9MGznhI2lFUVQFe",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-12",
+    "description": "サービス提供に伴い、現金売上¥120,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 120000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "サービスの現金売上は、現金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "9T27RhoBmy80QlKd",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-13",
+    "description": "サービス提供により、代金は後日受領とし、売掛金¥80,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上の場合、売掛金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "0NRvbHC4m8Hxu8tR",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-14",
+    "description": "広告宣伝費¥30,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "広告宣伝費",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "広告宣伝費の支払いは、費用の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "TGH7TLARbgMjqXAD",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-15",
+    "description": "社員の出張旅費¥15,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "旅費交通費",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "出張旅費の支払いは、旅費交通費（費用）の増加と現金の減少を記録します。"
+  },
+  {
+    "id": "u9180iXy9zBD90wY",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-16",
+    "description": "取引先との会食費用¥25,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "接待交際費",
+        "amount": 25000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 25000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "会食費用は接待交際費として計上し、現金の減少を記録します。"
+  },
+  {
+    "id": "ILho9GtMxLrxtrZz",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-17",
+    "description": "銀行預金から小口現金へ¥10,000を振替した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "小口現金",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "普通預金",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "振替仕訳により、小口現金（資産）の増加と普通預金（資産）の減少が記録されます。"
+  },
+  {
+    "id": "GGjcQYcfSANm81mW",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-18",
+    "description": "現金¥50,000を当座預金に預け入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "当座預金",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金から当座預金への預入れにより、資産の形態の変換を記録します。"
+  },
+  {
+    "id": "pFEqQV6uKyRsqdC9",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-19",
+    "description": "銀行からの借入金¥1,000,000を現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "短期借入金",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "借入金の受領は、現金（資産）の増加と短期借入金（負債）の増加を記録します。"
+  },
+  {
+    "id": "lbzXXgY01nqIDdEM",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-20",
+    "description": "銀行借入金に対する利息¥20,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支払利息",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "利息の支払いは、支払利息（費用）の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "Kpb1lIQPFLAz0gaL",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-21",
+    "description": "掛売上商品¥200,000に対し、売上割引¥3,000を提供し、現金¥197,000を回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 197000
+      },
+      {
+        "side": "借方",
+        "account": "売上割引",
+        "amount": 3000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売上割引では、回収現金と割引額を分け、売掛金全体の減少を正確に記録します。"
+  },
+  {
+    "id": "cqUafwxAhULx7F1s",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-22",
+    "description": "販売後の返品に伴い、顧客へ現金¥10,000を返金した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上返品",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品返金では、売上返品で収益修正を行い、現金の減少を記録します。"
+  },
+  {
+    "id": "Rxe1lBy1R5JsgOZ3",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-23",
+    "description": "社員研修のため、仮払金¥60,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仮払金",
+        "amount": 60000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 60000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "仮払金の支払いは、前払金として一時的に費用計上し、現金の減少を記録します。"
+  },
+  {
+    "id": "uqGLUblJzVyJ1tkj",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-24",
+    "description": "将来のサービス提供に備え、前受金¥80,000を現金で受け取った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "前受金",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "前受金の受領は、現金（資産）の増加と前受金（負債）の増加を記録します。"
+  },
+  {
+    "id": "i9d36hI4WvYWhKbU",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-25",
+    "description": "月末に未収収益として¥25,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "未収収益",
+        "amount": 25000
+      },
+      {
+        "side": "貸方",
+        "account": "収益",
+        "amount": 25000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "未収収益の計上は、収益の認識と未収資産の増加を記録します。"
+  },
+  {
+    "id": "7p0sL68R86v14oAS",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-26",
+    "description": "月末に発生した光熱費¥12,000が未払いとなり、未払金を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "光熱費",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "未払金",
+        "amount": 12000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "未払金の計上では、光熱費（費用）の発生と対応する負債の増加を記録します。"
+  },
+  {
+    "id": "nTzLP6gIkgI0CHwO",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-27",
+    "description": "建物の減価償却費¥100,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "減価償却費",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "建物減価償却累計",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "建物の減価償却仕訳は、減価償却費（費用）の計上と累計の増加により建物の評価減を反映します。"
+  },
+  {
+    "id": "KZ8uIEM6RDad1XvO",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-28",
+    "description": "設備の修繕に係る費用¥18,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "修繕費",
+        "amount": 18000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 18000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "修繕費の支払いでは、修繕費（費用）の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "lgtqCNu5wrRRPWpy",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-29",
+    "description": "商品¥600,000を現金で仕入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金で仕入れた場合、仕入（費用）の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "DjqlFmrqt6Sv6plF",
+    "level": "簿記3級",
+    "transaction_date": "2025-04-30",
+    "description": "売掛金¥250,000のうち、現金¥150,000と当座預金¥100,000で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 150000
+      },
+      {
+        "side": "借方",
+        "account": "当座預金",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 250000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "複数の方法で売掛金を回収する場合は、それぞれの受領額を適切に振替え、売掛金全体の減少を記録します。"
+  },
+  {
+    "id": "KJ6y97VleHDoVi7i",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-01",
+    "description": "受取手形¥500,000を割引に出し、割引料¥10,000差引後、現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 490000
+      },
+      {
+        "side": "借方",
+        "account": "手形割引料",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "受取手形",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "手形の割引では、受領現金は手形金額から割引料を差し引いた額となり、割引料は費用として計上されます。"
+  },
+  {
+    "id": "6Xh50b4dyBbMknvn",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-02",
+    "description": "海外仕入取引において、$20,000を掛け購入。初回記帳時は為替レート250円/$で¥5,000,000計上していたが、決済時の為替レート252円/$により買掛金の円換算額が¥5,040,000となり、為替差損¥40,000が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "為替変動により決済時の買掛金が増加した差額は、為替差損として計上します。"
+  },
+  {
+    "id": "HM8dQKy6TpyYxD01",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-03",
+    "description": "商品¥1,200,000を代金分割払いの条件で販売し、頭金として現金¥300,000を受け取り、残額は掛けとした。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 300000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 900000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 1200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "分割払いの条件で販売した場合も、商品を引き渡した時点で販売価額の全額を売上に計上します。受け取った頭金は現金、残額は売掛金で処理します。"
+  },
+  {
+    "id": "jGLske8J39RoZTBX",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-04",
+    "description": "買掛金仕入代金¥800,000の支払いに際し、小切手で支払った。なお、小切手振出手数料¥5,000も発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 800000
+      },
+      {
+        "side": "借方",
+        "account": "支払手数料",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "普通預金",
+        "amount": 805000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "小切手支払い時は、買掛金の減少と手数料の費用計上を行い、合計金額が普通預金から減少します。"
+  },
+  {
+    "id": "7rspoDB6sJHWgLte",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-05",
+    "description": "商品仕入れに対する買掛金¥700,000の取引について、仕入割戻し¥15,000と早期現金支払いによる支払割引¥10,000が認められ、実際の現金支払いは¥675,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 15000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 10000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 675000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入割戻",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "支払割引",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 675000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "複合取引の場合、買掛金に対する調整を仕入割戻と支払割引で行い、残りを現金支払いとして処理します。"
+  },
+  {
+    "id": "RmUmgxZjcTVpzLKN",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-06",
+    "description": "決算日に実施した棚卸実査の結果、帳簿上の棚卸資産が¥80,000多計上されていたため、減耗分として調整仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "棚卸減耗損",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "棚卸資産",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "棚卸減耗損の仕訳は、実在庫と帳簿価額との差異を補正し、減耗分を損失として計上します。"
+  },
+  {
+    "id": "2f8x2Ye3xBbU15Bo",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-07",
+    "description": "顧客から受け取った手形¥300,000を現金割引により換金したが、換金時に為替差損¥5,000が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 295000
+      },
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛手形",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "手形換金時に受領金額が手形金額を下回る場合、その不足分は為替差損として計上します。"
+  },
+  {
+    "id": "iodeRoMCcaz3FmQG",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-08",
+    "description": "海外からの商品を掛け購入。商品代金¥1,000,000に加え、関税¥50,000と運賃¥20,000が発生し、合計¥1,070,000が買掛金として計上された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 1000000
+      },
+      {
+        "side": "借方",
+        "account": "関税",
+        "amount": 50000
+      },
+      {
+        "side": "借方",
+        "account": "運賃",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 1070000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "海外仕入では、商品代金に加え発生する関税や運賃も含めた総額を買掛金として計上します。"
+  },
+  {
+    "id": "vq73XHqD44DMOosY",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-09",
+    "description": "取引先の破産に伴い、売掛金¥150,000の回収見込みがなくなったため、貸倒処理を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "貸倒損失",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "回収不能な売掛金は、貸倒損失として計上し、債権の減少を反映させます。"
+  },
+  {
+    "id": "LXyYtUpfQLDKDTrP",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-10",
+    "description": "決算時において、期末棚卸資産の時価が帳簿価額より¥100,000低いと判断され、評価損として調整する必要があった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "評価損",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "棚卸資産",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "棚卸資産の評価替えでは、時価が帳簿価額を下回る場合、その差額を評価損として計上し、資産価値の低下を反映させます。"
+  },
+  {
+    "id": "2UbEENoRcl8o0ZHO",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "原材料¥1,000,000を掛けで購入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "原材料",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "原材料購入は、直接材料の在庫増加として記録され、支払い方法に応じて買掛金など負債勘定が増加します。"
+  },
+  {
+    "id": "hajqmBPfrQ4aB0FB",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "原材料のうち¥600,000が生産に使用されたため、仕掛品に振り替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接材料が生産に投入される際、原材料在庫から仕掛品へ振替え、製造原価の発生を記録します。"
+  },
+  {
+    "id": "Jq7leeYq4JuJ8wWk",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "製造部門の従業員に対して、直接労務費¥300,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接労務費の支払いは、現金の減少とともにその費用を仕掛品へ組み入れ、製造原価に計上します。"
+  },
+  {
+    "id": "FtjG7o6URbLyfs4Y",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "工場の水道光熱費などの製造間接費¥80,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "製造間接費は、直接原価に組み入れる前段階として発生し、後日仕掛品に配賦するための準備仕訳となります。"
+  },
+  {
+    "id": "gJb4K10NhU8beRsd",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "生産工程が完了したため、仕掛品の原価¥980,000を完成品へ振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 980000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 980000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "完成品振替の仕訳は、仕掛品に計上されていた原価を完成品に移し、在庫区分を明確にするために行います。"
+  },
+  {
+    "id": "ZmJD8HUvYuxzfHEk",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "工場用直接材料として、原材料¥300,000を掛けで購入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "原材料",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接材料の購入は、原材料在庫の増加として記録され、掛け取引の場合は買掛金という負債が増加します。"
+  },
+  {
+    "id": "zPGMeFhUL1ZZdrXa",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "生産に使用するため、原材料¥200,000を原材料在庫から仕掛品へ振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接材料が生産に投入される際、原材料在庫から仕掛品へ振替え、製造原価として計上します。"
+  },
+  {
+    "id": "VWpZrh1uOCmy3e5h",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "製造現場の従業員へ直接労務費として、現金で¥150,000を支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接労務費は、製造に直接関与する労働の対価として、仕掛品に組み入れられ、現金の減少とともに製造原価が増加します。"
+  },
+  {
+    "id": "LyepyauCph8J4cYA",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "工場の水道光熱費、減価償却費等の製造間接費として、現金で¥50,000を支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "製造間接費は、直接材料・直接労務費以外の製造活動に伴う費用であり、現金支払いの場合はその金額が現金の減少として記録されます。"
+  },
+  {
+    "id": "HBKgTNbr5RF7gegm",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "生産工程完了に伴い、仕掛品の製造原価合計¥800,000を完成品へ振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "完成品への振替えは、これまで仕掛品に積み上げた直接材料費、直接労務費、製造間接費を完成品在庫に移動し、在庫区分を明確にする重要な仕訳です。"
+  },
+  {
+    "id": "Egc0xt7aKZHFQar5",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "生産用原材料¥500,000を掛けで購入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "原材料",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "原材料購入は在庫資産として『原材料』勘定に計上し、掛け取引の場合は『買掛金』勘定で負債を増加させます。"
+  },
+  {
+    "id": "QbMEQX1KTwErB8GL",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "生産開始のため、原材料¥300,000を原材料在庫から仕掛品へ振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "製造に使用する直接材料の投入時、原材料在庫から仕掛品へ振替え、製造原価の発生を反映させます。"
+  },
+  {
+    "id": "BZIOtGios0B27DK9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "製造工程完了に伴い、仕掛品の原価合計¥700,000を完成品に振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 700000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 700000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "完成品への振替えは、これまで仕掛品に積み上げた直接材料、直接労務費、製造間接費などの製造原価を完成品在庫に移動し、在庫区分を明確にするための仕訳です。"
+  },
+  {
+    "id": "ie0f3lc4nfcFpPvO",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "原材料の一部¥50,000が破損したため、在庫から除外し減耗処理を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "原材料減耗損",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "在庫資産の破損等により原材料の実在庫が減少した分については、減耗損として損失計上し、原材料勘定から除外します。"
+  },
+  {
+    "id": "CKvIWRF8F4YjWtdd",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "期末在庫評価により、完成品在庫の時価が帳簿価額より¥80,000低いと判断し、評価損として調整した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "評価損",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "製品",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "期末の在庫評価では、完成品在庫の実際の市場価値が帳簿価額を下回る場合、その差額を評価損として計上し、在庫資産の実態を反映させます。"
+  },
+  {
+    "id": "7znpGGwUajm87h4l",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "工場の電気代¥80,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "工場の電気代は、製造活動に直接関係する共通費用として、製造間接費に計上されます。"
+  },
+  {
+    "id": "5K30Sa7MRYqoxZOL",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "工場設備の減価償却費¥120,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費",
+        "amount": 120000
+      },
+      {
+        "side": "貸方",
+        "account": "設備減価償却累計",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "工場設備の減価償却費は、工場の経済的耐用年数に応じた費用配分として、製造間接費に振り替えられ、設備の評価減を反映させます。"
+  },
+  {
+    "id": "r0bbC0PstZpWUjuw",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "工場用消耗品費¥30,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "工場用消耗品費も、直接製品に組み入れることが難しい共通費用であるため、製造間接費として計上され、現金支出として反映されます。"
+  },
+  {
+    "id": "v0tMrdwgCsmengWT",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "工場の賃借料¥60,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費",
+        "amount": 60000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 60000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "工場賃借料は、製品の製造に必要な施設使用費用として、製造間接費に含まれ、現金支出として記録されます。"
+  },
+  {
+    "id": "A5IPfnJETQWVSXvI",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "当月の製造間接費¥250,000を仕掛品に配賦した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 250000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 250000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "集計した製造間接費は、仕掛品に配賦（振替）することで、完成品に反映される製造原価の一部として、在庫評価に影響を及ぼす仕訳処理が行われます。"
+  },
+  {
+    "id": "B3H9AJDSKMIPxKhr",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "注文J001に対して、直接材料として原材料¥400,000を使用した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 400000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J001の直接材料投入として、原材料在庫から仕掛品へ振替え、該当ジョブの原価を積み上げました。"
+  },
+  {
+    "id": "ootECBd4Muwodm2m",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "注文J001に対して、直接労務費として現金¥150,000を支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接労務費は、注文J001の作業に従事した労働の対価として、仕掛品に組み入れられました。"
+  },
+  {
+    "id": "W4sSrrGpGWcQTR1P",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "注文J001に対して、製造間接費を振替え、¥80,000を仕掛品に配賦した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J001にかかる共通費用（例えば、電気代・設備減価償却等）を製造間接費として仕掛品に配賦しました。"
+  },
+  {
+    "id": "0xtTi5lhEmAIumEF",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "注文J001の製造完了に伴い、仕掛品の合計原価¥630,000を完成品（製品）に振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 630000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 630000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "これまで注文J001に積み上げた直接材料、労務費、間接費の合計原価を完成品在庫へ移動しました。"
+  },
+  {
+    "id": "m2Fsv7QOb4dobibz",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "注文J002に対して、直接材料として原材料¥500,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J002の直接材料費として、原材料在庫から仕掛品へ振替えました。"
+  },
+  {
+    "id": "YOkGlDRaCHMQSX84",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "注文J002に対して、直接労務費¥200,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J002の直接労務費が仕掛品に組み入れられ、原価が増加しました。"
+  },
+  {
+    "id": "d2HxPbVayqH8W7gL",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "注文J002に対して、製造間接費として¥100,000を仕掛品に配賦した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J002の間接費用（例：水道光熱費等）を仕掛品に配賦しました。"
+  },
+  {
+    "id": "RK5YOe2Yamvmlare",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "注文J002の製造完了に伴い、仕掛品から完成品へ原価¥800,000を振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J002の原価（直接材料500,000＋直接労務費200,000＋間接費100,000）が完成品在庫に移動しました。"
+  },
+  {
+    "id": "TCrRlV4G6Xaz39Ww",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "注文J003に対して、直接材料として原材料¥350,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 350000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 350000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J003の直接材料が原材料在庫から仕掛品に振替えられ、個別原価が計上されました。"
+  },
+  {
+    "id": "8Rf52LTKtnJK9fne",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "注文J003に対して、直接労務費として現金¥180,000を支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 180000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 180000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J003の労務費が、直接費として仕掛品に追加されました。"
+  },
+  {
+    "id": "0vJEuelxfkRVo3lh",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "注文J003に対して、製造間接費として¥50,000を仕掛品に配賦した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J003にかかる間接費が仕掛品へ配賦され、製造原価がさらに積み上がりました。"
+  },
+  {
+    "id": "4tudMS1FkMRkcdrQ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "注文J003の製造完了に伴い、仕掛品の合計原価¥580,000を完成品に振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 580000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 580000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J003の完成品振替により、これまで積み上げた原価（材料350,000＋労務費180,000＋間接費50,000）が完成品在庫へ移動しました。"
+  },
+  {
+    "id": "VaxCIqvLEBr2F2H0",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "注文J004に対して、特殊原料として原材料¥600,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J004の直接材料として特殊原料が投入され、原材料在庫から仕掛品に振替えられました。"
+  },
+  {
+    "id": "oUzyEMhu2UPKQa1P",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "注文J004に対して、直接労務費として現金¥250,000を支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 250000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 250000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J004の直接労務費が、仕掛品原価として計上されました。"
+  },
+  {
+    "id": "7553lPyKNRnuM3xY",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "注文J004に対して、製造間接費として¥90,000を仕掛品に配賦した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 90000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 90000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "注文J004の間接費が仕掛品に振替えられ、個別原価計算の進捗として原価が積み上がりました。（※注文J004は現在仕掛品として処理中です。）"
+  },
+  {
+    "id": "d2PJFQx6l5w0csk0",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "A製造部門では、期中に直接材料として原材料¥1,200,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 1200000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 1200000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接材料の投入は、製造原価の一部として仕掛品に積み上げられます。期首残高は既に計上済みとして、当期投入分のみ今回記録します。"
+  },
+  {
+    "id": "Hyh92InDvX1JZv2J",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "同製造部門で、直接労務費として現金支出により¥800,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接労務費は、製造工程に直接関与する労働の対価として仕掛品に加算されます。"
+  },
+  {
+    "id": "AyarCzs7PWCae9OE",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "同部門で、製造間接費として共通費用（例：工場電力、設備減価償却等）の費用¥500,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "製造間接費は、個別注文ごとには直接追跡できない共通費用として、仕掛品に一括して配賦されます。"
+  },
+  {
+    "id": "i8AKiwnY1BFqzz84",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "当期、A製造部門において完成した製品の原価合計¥2,200,000を、仕掛品から製品へ振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 2200000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 2200000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "完成品への振替えにより、これまで仕掛品に積み上げた直接材料、直接労務費、製造間接費が完成品在庫として認識されます。"
+  },
+  {
+    "id": "h08RNv7BqaW7Zqmw",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-16",
+    "description": "当月の月初仕掛品原価は¥200,000、当月製造費用は¥2,500,000（直接材料費¥1,200,000、直接労務費¥800,000、製造間接費¥500,000）、月末仕掛品原価は¥500,000であった。当月の完成品原価を振り替える。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 2200000
+      },
+      {
+        "side": "貸方",
+        "account": "仕掛品",
+        "amount": 2200000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "完成品原価は「月初仕掛品原価＋当月製造費用－月末仕掛品原価」で求めます。¥200,000＋¥2,500,000－¥500,000＝¥2,200,000を、仕掛品勘定から製品勘定へ振り替えます。"
+  },
+  {
+    "id": "xXustYUUk8obmNW2",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "注文Aに対して、直接材料の標準単価は¥100／単位、5000単位の投入が標準となっている。実際は5000単位を¥102／単位で購入し、総購入額は¥510,000となった。標準原価計算の方法により、原材料在庫は標準原価で計上し、差額を差異勘定に記録する仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 500000
+      },
+      {
+        "side": "借方",
+        "account": "材料価格差異",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 510000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "標準原価計算では、直接材料は標準単価（¥100×5000＝¥500,000）で仕掛品に積み上げ、実際購入額との差額（¥510,000－¥500,000＝¥10,000）の不利差異を材料価格差異として別途記録します。"
+  },
+  {
+    "id": "P7XnNQWAZA79rtjZ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "注文Aに対して、直接労務費の標準単価は¥200／時間、標準作業時間は1,000時間で計上するはずであったが、実際は1,100時間かかり、実際の賃金は¥210／時間で支払われた。仕訳処理として、直接労務費を標準原価で仕掛品に積み上げ、労務費の差異（賃率差異および効率差異）の合計を計上する仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 200000
+      },
+      {
+        "side": "借方",
+        "account": "労務費賃率差異",
+        "amount": 11000
+      },
+      {
+        "side": "借方",
+        "account": "労務費効率差異",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "給料手当",
+        "amount": 231000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "標準直接労務費は1,000時間×¥200＝¥200,000ですが、実際は1,100時間×¥210＝¥231,000となったため、労務費賃率差異（(¥210－¥200)×1,100＝¥11,000、不利）および効率差異（(1,100－1,000)×¥200＝¥20,000、不利）を計上し、合計差異¥31,000が発生します。"
+  },
+  {
+    "id": "oA8V0eiLH3k5f10m",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "注文Aに対して、標準製造間接費は1,000直接労務時間に対して¥150／時間、つまり¥150,000と見込んで仕掛品に配賦する予定であったが、実際の製造間接費は¥145,000であった。標準と実績の差異（¥5,000の有利差異）を反映した仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 145000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費有利差異",
+        "amount": 5000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "標準原価計算では、製造間接費を標準額で仕掛品に積み上げ、実際の支出との差額（¥150,000－¥145,000＝¥5,000の有利差異）を別勘定で記録します。"
+  },
+  {
+    "id": "GZFXBgeE3tQ2XyiJ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "注文Aの生産において、直接材料・直接労務費および製造間接費の標準原価の合計は¥2,000,000であったが、実際との差異（直接原価差異）が¥20,000不利であった。この差異を仕掛品に反映する調整仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕掛品",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "直接原価差異",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "製造原価は標準額で積み上げられますが、実際には直接材料・労務費の合計実績との差異が生じた場合、直接原価差異勘定でその不利差異を記録し、後日費用に振替えたり製品原価に反映させます。"
+  },
+  {
+    "id": "0DTmRpCfcEf3CGqs",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-16",
+    "description": "当期、製造間接費の実績と標準配賦との差額が¥12,000有利であった。これを期末に費用に振替える仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造間接費有利差異",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費振替",
+        "amount": 12000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "有利な製造間接費差異は、実際の支出が標準より低かったことを反映しており、期末にそれを費用に振替えることで最終的な製品原価を確定させます。"
+  },
+  {
+    "id": "9NZrOp7W1BBYZO9k",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "製造部Aで、直接材料として原材料¥800,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造部A仕掛品",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "原材料",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "部門別原価計算では、各生産部門ごとに仕掛品勘定を設けます。ここでは、製造部Aで直接材料費が投入されたことを、原材料在庫から製造部A仕掛品へ振替えています。"
+  },
+  {
+    "id": "H5qkVqRwcoinoAuW",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "製造部Bで、直接労務費として現金支払いにより¥500,000を投入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造部B仕掛品",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "直接労務費は、各部門で発生する労務費として直接仕掛品に組み入れられます。ここでは、製造部Bでの直接労務費の支払いが現金出費として記録されています。"
+  },
+  {
+    "id": "OoHI8F9ErNUvY6O1",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "製造部Aで完成した半製品の原価¥1,000,000を、製造部Bへ部門間振替した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造部B仕掛品",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "製造部A仕掛品",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "部門別原価計算では、前工程で積み上げた原価を次工程の仕掛品へ振替えることにより、次工程の原価計算に引き継ぎます。"
+  },
+  {
+    "id": "oHuxAXcALFV3Ir5x",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "製造部Bにおいて、標準配賦による製造間接費として¥320,000を仕掛品に配賦したが、実際の支出は¥300,000であった。不利差異¥20,000を記録する仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製造部B仕掛品",
+        "amount": 320000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "製造間接費有利差異",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "標準配賦に基づき製造間接費を仕掛品に積み上げるとともに、実績との差額を差異勘定（有利の場合）として記録します。"
+  },
+  {
+    "id": "yieYoGbFR4b05rcM",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "製造部Bで全工程が完了した製品の原価合計¥2,500,000を、製造部B仕掛品から完成品（製品）へ振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "製品",
+        "amount": 2500000
+      },
+      {
+        "side": "貸方",
+        "account": "製造部B仕掛品",
+        "amount": 2500000
+      }
+    ],
+    "bookkeepingType": "工業簿記",
+    "feedback": "各部門で積み上げた製造原価は、最終工程の仕掛品から完成品へ振替えることで、部門別原価計算の集約が行われ、完成品在庫が確定されます。"
+  },
+  {
+    "id": "e5szvbF7tCVH7NEV",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-11",
+    "description": "商品¥800,000を掛けで仕入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "商品の仕入れは、仕入勘定（費用）の増加と、掛け取引による買掛金（負債）の増加として記録します。"
+  },
+  {
+    "id": "Ih6YXDgosYiaV9mO",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-12",
+    "description": "商品¥1,000,000を現金で仕入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金で仕入れた場合、仕入勘定（費用）の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "47p8fMCEDrrdAB4x",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-13",
+    "description": "商品¥700,000を現金で販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 700000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 700000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金販売では、現金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "dzuBbzUkgGBJzfvm",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-14",
+    "description": "商品¥900,000を掛けで販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 900000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 900000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上では、売掛金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "0tMki4F1okXGWLI1",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-15",
+    "description": "販売後、商品¥50,000が返品され、売掛金を調整した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上返品",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品処理では、売掛金（資産）の減少と、売上返品により収益の調整を記録します。"
+  },
+  {
+    "id": "002ke9m14g4QhCHZ",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-16",
+    "description": "仕入れた商品¥40,000の一部が不良品として返品された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入返品",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "仕入返品処理では、買掛金（負債）の減少と、仕入返品により仕入金額の調整を行います。"
+  },
+  {
+    "id": "u4I4qQ3nQ9bDLdvU",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-17",
+    "description": "以前に掛けで仕入れた商品¥800,000の買掛金を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け仕入れの買掛金支払いは、買掛金（負債）の減少と現金（資産）の減少として記録します。"
+  },
+  {
+    "id": "Z0tDm7KJdC6opHZf",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-18",
+    "description": "以前の掛け売上金¥600,000を現金で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上金の回収により、現金（資産）の増加と売掛金（資産）の減少が記録されます。"
+  },
+  {
+    "id": "cblsd62GpAsfNYXN",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-19",
+    "description": "売掛金¥300,000の回収時、現金割引¥5,000を適用して回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 295000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金割引",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金割引適用時は、受領現金と割引額を分けて記録し、売掛金全体の減少を正確に反映させます。"
+  },
+  {
+    "id": "mJQzxPBAoxwzklOz",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-20",
+    "description": "商品仕入れに対する買掛金¥450,000の取引で、早期現金支払いにより支払割引¥7,000が認められ、実際の現金支払い額は¥443,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 7000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 443000
+      },
+      {
+        "side": "貸方",
+        "account": "支払割引",
+        "amount": 7000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 443000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "複合取引の場合、買掛金全額から割引分と実際の現金支払い分に分けて処理し、割引分は費用として計上します。"
+  },
+  {
+    "id": "r2Zz79Oj4Tyk8W3A",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-21",
+    "description": "商品¥1,500,000を代金分割払いの条件で販売し、頭金として現金¥400,000を受け取り、残額は掛けとした。なお、分割払いに伴う利息¥30,000は、代金の回収時に受け取る約束である。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 400000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 1100000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 1500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売上は商品の販売価額で計上し、頭金は現金、残額は売掛金で処理します。分割払いに伴う利息はまだ受け取っていないため、販売時点では計上せず、回収時に受取利息として処理します。"
+  },
+  {
+    "id": "ZxZKezT54ALw8FYB",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-22",
+    "description": "販売した商品¥400,000のうち、一部返品により売上返品¥80,000を計上した（掛け売上の場合）。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上返品",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品処理により、売掛金の減少と売上返品勘定による収益の修正を記録します。"
+  },
+  {
+    "id": "KGjENedCfF6WakPE",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-23",
+    "description": "商品¥250,000を現金で販売した際、即時現金割引¥5,000を適用し、実際の受領額は¥245,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 245000
+      },
+      {
+        "side": "借方",
+        "account": "売上割引",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 250000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金販売時の即時割引は、受領現金と割引額を個別に記録することで、売上総額と調整します。"
+  },
+  {
+    "id": "NLrcwD4y4FUiRP8F",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-24",
+    "description": "商品仕入れに対する買掛金¥600,000の取引で、早期現金支払いにより支払割引¥8,000が認められ、実際の現金支払い額は¥592,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 8000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 592000
+      },
+      {
+        "side": "貸方",
+        "account": "支払割引",
+        "amount": 8000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 592000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け取引における早期現金支払い割引は、割引額と実際の支払い額に分割して記録します。"
+  },
+  {
+    "id": "QpRaDgVe8iDsUZDW",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-25",
+    "description": "商品¥700,000を掛けで仕入れた後、後日一部現金で¥300,000を支払い、残りは買掛金として残した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 700000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 700000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "まず、商品の仕入れを掛け取引で記録し、後日一部現金支払いがあった分を買掛金の減少として処理します。"
+  },
+  {
+    "id": "MFu1Ns4PKvOydGQT",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-11",
+    "description": "商品¥400,000を掛けで仕入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 400000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "商品の仕入れは、仕入勘定（費用）の増加と、掛け取引による買掛金（負債）の増加として記録します。"
+  },
+  {
+    "id": "qZ1Q5rp9m8TjNlZf",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-12",
+    "description": "商品¥350,000を現金で販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 350000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 350000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金での販売により、現金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "eQkSXcn2eKPwNlvr",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-13",
+    "description": "商品¥500,000を掛けで販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上の場合、売掛金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "Ln8kamqLRcTrlh2G",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-14",
+    "description": "売掛金¥120,000の回収時、現金割引¥3,000を適用して現金で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 117000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金割引",
+        "amount": 3000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "回収時には、標準的な売掛金の減少と、割引分を分離して記録し、実際の受領金額との差を明確にします。"
+  },
+  {
+    "id": "LziOHYQpVGzAGdgW",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-15",
+    "description": "商品¥250,000を現金で仕入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 250000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 250000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "現金仕入れでは、仕入（費用）の増加と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "DNimIZoPgG2WGqw0",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-16",
+    "description": "仕入れた商品¥60,000の一部が不良品として返品された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 60000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入返品",
+        "amount": 60000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品処理では、買掛金（負債）の減少と仕入返品による仕入金額の調整を行います。"
+  },
+  {
+    "id": "Qygarb5kyBYLAJUF",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-17",
+    "description": "商品¥700,000を掛けで販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 700000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 700000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上は、売掛金（資産）の増加と売上（収益）の増加として記録します。"
+  },
+  {
+    "id": "QjsTaGfI4eUGSB8b",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-18",
+    "description": "掛けで仕入れた商品¥900,000のうち、一部現金で¥400,000を支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 400000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け仕入れの買掛金に対し、現金支払いを行った際は、買掛金が減少し、現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "Uz6DYlwaIDq9qEAT",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-19",
+    "description": "売掛金¥800,000のうち、現金で¥500,000と当座預金で¥300,000で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 500000
+      },
+      {
+        "side": "借方",
+        "account": "当座預金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "複数の方法で売掛金を回収する場合は、各受領額を記録し、売掛金の減少額の合計と一致させます。"
+  },
+  {
+    "id": "gymd1GgyTjUpJpTN",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-20",
+    "description": "付随する運送料¥15,000を現金で支払った（現金売上に伴う費用）。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "運送料",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "販売取引において、付随する運送料は販売関連費用として、現金の支払いとともに記録されます。"
+  },
+  {
+    "id": "TmOKjUBbRbErV5wT",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-21",
+    "description": "商品¥450,000を掛けで仕入れた後、後日現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 450000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 450000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け仕入れの後、現金による支払いが行われた場合、買掛金は減少し、現金（資産）の減少として処理します。"
+  },
+  {
+    "id": "B9o6nRenZioyZLUX",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-22",
+    "description": "商品¥550,000を掛けで仕入れた後、仕入割戻し¥20,000が認められた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 550000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 550000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入割戻",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "仕入取引において、仕入割戻しにより買掛金が一部調整され、割戻し分が費用修正として記録されます。"
+  },
+  {
+    "id": "d46NvGbSfJ6Eevf7",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-23",
+    "description": "掛けで販売した商品¥680,000のうち、返品により売掛金から¥40,000を調整した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上返品",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "販売返品により、売掛金が減少し、返品分として収益の調整が行われます。"
+  },
+  {
+    "id": "mBSIXYwH4fq1xojV",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-24",
+    "description": "商品¥520,000を現金で仕入れた際、付随する運送料¥8,000も現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 520000
+      },
+      {
+        "side": "借方",
+        "account": "運送料",
+        "amount": 8000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 528000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "商品の現金仕入れと、付随する運送料は合算して記録し、現金の減少額と一致させます。"
+  },
+  {
+    "id": "zIicJWjwQACwpPuL",
+    "level": "簿記3級",
+    "transaction_date": "2025-05-25",
+    "description": "商品¥840,000を掛けで仕入れた後、後日その掛代全額を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 840000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 840000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 840000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 840000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "商品の掛け仕入れと、後日の現金支払いが一致する取引は、仕入れ時と支払い時の仕訳により、買掛金が消滅することを記録します。"
+  },
+  {
+    "id": "GdW1aFO0GhcFZLKt",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-11",
+    "description": "商品¥600,000を掛けで売り上げた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け売上の場合、売掛金（資産）の増加と売上（収益）の増加として記録します。"
+  },
+  {
+    "id": "NjCv8B64zbuoimBA",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-12",
+    "description": "売掛金¥500,000を現金で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売掛金の回収により、現金（資産）が増加し、売掛金（資産）が減少します。"
+  },
+  {
+    "id": "2JZYOpBR8iTrbEke",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-13",
+    "description": "売掛金¥100,000の回収時、現金割引¥3,000を適用して回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 97000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金割引",
+        "amount": 3000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "割引適用時は、受領現金と割引額を分離して記録し、売掛金全体の減少額と調整します。"
+  },
+  {
+    "id": "zZkzn82TbEWWVyY8",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-14",
+    "description": "受取手形¥400,000を割引に出し、割引料¥8,000を差し引き現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 392000
+      },
+      {
+        "side": "借方",
+        "account": "手形割引料",
+        "amount": 8000
+      },
+      {
+        "side": "貸方",
+        "account": "受取手形",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "受取手形の割引では、手形の標準金額から割引料を差し引いた実際の受領金額で処理し、差額は割引料として費用計上します。"
+  },
+  {
+    "id": "EdNZuOuKGSdFfdMq",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-15",
+    "description": "商品¥550,000を掛けで仕入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 550000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 550000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "仕入れは仕入勘定（費用）の増加と、掛け取引により買掛金（負債）の増加を記録します。"
+  },
+  {
+    "id": "2ngw4PVLexn1wW7D",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-16",
+    "description": "掛けで仕入れた商品¥550,000の買掛金を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 550000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 550000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "買掛金の支払いは、買掛金（負債）の減少と現金（資産）の減少を記録します。"
+  },
+  {
+    "id": "KLrGxQihJw1wGqqz",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-17",
+    "description": "商品仕入れに対する買掛金¥600,000の取引で、支払割引¥12,000が認められ、実際の現金支払い額は¥588,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "支払割引",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 588000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "掛け仕入れの支払いは、買掛金全額を減少させ、その中から割引分を分離して記録します。"
+  },
+  {
+    "id": "pm7qVsfWxBnNza78",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-18",
+    "description": "受取手形¥300,000が不渡りとなったため、売掛金に再振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "受取手形",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "不渡りとなった受取手形は、再び売掛金として処理する必要があるため、振替え仕訳を行います。"
+  },
+  {
+    "id": "JpaE1dDK4bIBk7ou",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-19",
+    "description": "売掛金の一部¥120,000が回収不能となったため、貸倒処理を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "貸倒損失",
+        "amount": 120000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "回収不能な売掛金は、貸倒損失（費用）として計上し、売掛金（資産）の減少を反映させます。"
+  },
+  {
+    "id": "C4dkfwGFnojEl70J",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-20",
+    "description": "仕入先破産により、買掛金¥80,000の一部が免除された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "雑収入",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "仕入先の破産等により買掛金の一部免除があった場合、免除分は雑収入として計上し、買掛金（負債）の減少を反映させます。"
+  },
+  {
+    "id": "ZTvQBiY8ECZPmFze",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-21",
+    "description": "買掛金のうち、支払手形へ振替えた金額¥360,000を記録した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支払手形",
+        "amount": 360000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 360000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "部門別ではなく、買掛金から支払手形への振替えにより、支払い方法の変更を反映します。"
+  },
+  {
+    "id": "dyCcCSR3O8WFktgN",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-22",
+    "description": "売掛金¥280,000を割引譲渡し、実際の受領現金は¥270,000であった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 270000
+      },
+      {
+        "side": "借方",
+        "account": "売掛金割引",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 280000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売掛金の割引譲渡では、標準売掛金額と実際に受領した現金との差額を割引勘定で記録します。"
+  },
+  {
+    "id": "hDpnXbuHopuq0Pah",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-23",
+    "description": "売掛先破産により、売掛金¥100,000が回収不能となったため、貸倒処理を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "貸倒損失",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売掛先破産により、回収見込みがなくなった売掛金は、貸倒損失として処理します。"
+  },
+  {
+    "id": "JrIIshJW8DTrTlCo",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-24",
+    "description": "誤って記帳した買掛金¥130,000を、正しくは¥120,000であったため、¥10,000の訂正仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入訂正",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "誤記訂正仕訳により、買掛金の金額を正しい水準に修正し、仕入関連の費用を調整します。"
+  },
+  {
+    "id": "daNkUZSuJYYggYAK",
+    "level": "簿記2級",
+    "transaction_date": "2025-05-25",
+    "description": "商品仕入れに対する買掛金¥600,000の取引で、仕入割戻し¥5,000が認められ、買掛金を調整した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入割戻",
+        "amount": 5000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "仕入割戻しの適用により、買掛金の調整が行われ、実際の負債額が正確に反映されます。"
+  },
+  {
+    "id": "XiEZ8YbKMqMsJXzQ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "従業員給与支給時、総支給額¥500,000のうち、従業員負担の社会保険料¥30,000および源泉所得税¥20,000を天引きし、実際支給額は¥450,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "給料手当",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "預り社会保険料",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "預り源泉所得税",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 450000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "給与支給時は、総支給額を費用として計上し、天引き分を負債（預り金）として記録します。"
+  },
+  {
+    "id": "qVeUOfzYCB8gSfy7",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "従業員給与支給に伴い、会社負担の社会保険料¥40,000を現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法定福利費",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "会社負担分は法定福利費として費用計上し、現金支出により負債ではなく現金の減少として処理します。"
+  },
+  {
+    "id": "FOOdVP95reSeHaW4",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "従業員賞与（総額¥1,000,000）の支給時、源泉所得税¥50,000を天引きし、実際支給額は¥950,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "賞与引当金",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "預り源泉所得税",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 950000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "賞与支給時は、総額を引当金として計上し、天引きされた源泉所得税を預り金として記録、実際支給分を現金支出として処理します。"
+  },
+  {
+    "id": "MdeegiEzIUyJMvEi",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "従業員から預かっていた住民税¥15,000を、翌月に現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "預り住民税",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "天引きされた住民税は、納付時に現金支払いで負債を消去します。"
+  },
+  {
+    "id": "IqRqEfszCZ1NxQQl",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "従業員から預かった源泉所得税¥70,000を、税務署に現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "預り源泉所得税",
+        "amount": 70000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 70000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "天引きされた源泉所得税は、納付時に現金支払いで負債を消去します。"
+  },
+  {
+    "id": "df6R0v2USm0Y9LA9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "給与支給時、従業員から雇用保険料¥5,000を天引きした。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "給料手当",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "預り雇用保険料",
+        "amount": 5000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "従業員から天引きした雇用保険料は、預り金として記録し、後日納付されます。"
+  },
+  {
+    "id": "3Svguy8ld8W9jvJt",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "従業員から預かった厚生年金保険料¥12,000を、翌月に現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "預り厚生年金保険料",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 12000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "天引きされた厚生年金保険料は、納付時に現金支払いで負債を消去します。"
+  },
+  {
+    "id": "uoiakNHiNvZMMCJG",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "当期の売上高に基づき、法人事業税見込額¥80,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人事業税等",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等引当金",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "法人事業税は、見込み額を費用として認識し、引当金として計上します。"
+  },
+  {
+    "id": "YugN8CyJWrZJpoxM",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "期末に固定資産税見込み額¥50,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "固定資産税等",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "未払固定資産税",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "固定資産税は、期末に見込み額を費用として計上し、未払金として記録します。"
+  },
+  {
+    "id": "jdfKq23AODOHas8Y",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "印紙税¥2,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "印紙税",
+        "amount": 2000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 2000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "印紙税は、支払時に費用計上し、現金の減少を記録します。"
+  },
+  {
+    "id": "cb4Un9UcVXvZ5RUO",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "従業員給与支給時に天引きされた労災保険料¥3,000を、後日現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "預り労災保険料",
+        "amount": 3000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 3000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "労災保険料は、従業員負担分として天引き後、納付時に現金支払いで消去されます。"
+  },
+  {
+    "id": "79Ku1hPIGXt24YD8",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "法人住民税¥30,000を計上し、納付予定として法人税等引当金に振替えた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人住民税",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等引当金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "法人住民税は、納付見込み額を法人税等引当金として計上することで、費用認識します。"
+  },
+  {
+    "id": "48RJyb7XuTHKdZze",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "期末に、法人税の見込み額¥150,000を算定し、法人税等引当金として計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等引当金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "法人税等引当金は、期末の見込み法人税を費用として認識し、引当金として計上します。"
+  },
+  {
+    "id": "6SmicpKeKz39nkCR",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "従業員から預かった住民税¥10,000が過剰徴収であったため、返還処理を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "預り住民税",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "過剰徴収された住民税は、返還処理により預り金を減少させ、現金が回収されたことを記録します。"
+  },
+  {
+    "id": "XaM8lBcpWjJTsPgb",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "税務調査により追加の消費税納付額¥20,000が発生したため、現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仮受消費税",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "追加の消費税納付は、仮受消費税との相殺により、実際の納付額として現金支払いで反映されます。"
+  },
+  {
+    "id": "KqK4MSyxabXMtqMo",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "本店から支店へ、商品¥800,000相当を移送した。本店側では、在庫の振替仕訳を行う。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支店振替出庫",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "本店商品在庫",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "本店から支店に商品を移送する際、販売収益は認識せず、在庫の減少（本店側）として、支店振替出庫勘定で処理します。"
+  },
+  {
+    "id": "dUZZG2LDyOEOKnzA",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "本店から支店へ商品¥800,000相当が送付された。支店側では、商品の受入として仕訳を行う。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支店商品在庫",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "本店振替入庫",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "支店は、本店から送付された商品の受入を、支店商品在庫として計上し、同時に本店振替入庫勘定で処理します。"
+  },
+  {
+    "id": "R3Vs51e1nddFC5E7",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "支店で、本店から受領した商品のうち¥600,000分を現金販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売上",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "支店での販売取引は、実際の受領現金の増加と売上の認識により記録されます。"
+  },
+  {
+    "id": "8eiTfJA4FXt3gKj5",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "支店で発生した売掛金¥200,000を本店回収用に送金するため、本店側で現金回収仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店現金",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売掛金",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "支店が回収した売掛金の一部を本店に送金する場合、内部振替として本店現金と支店売掛金の減少を記録します。"
+  },
+  {
+    "id": "eaTY8Wcr4jNMorAc",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "支店で販売後、商品販売額¥50,000が返品となり、売掛金の調整仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支店売上返品",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売掛金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品により、支店側の売掛金が減少し、売上返品として収益の調整が行われます。"
+  },
+  {
+    "id": "OyWqHnrXd7fu4pMO",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "支店への商品送付時に、本店側で¥10,000の誤記があったため、訂正仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店振替出庫訂正",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "本店商品在庫",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "誤記訂正仕訳により、本店の在庫および振替関係の金額を正しい水準に修正します。"
+  },
+  {
+    "id": "YF4jRcQg8CSJu5q0",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "支店で売掛金¥100,000の回収時、現金割引¥2,000を適用して現金で回収した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 98000
+      },
+      {
+        "side": "借方",
+        "account": "支店売掛金割引",
+        "amount": 2000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売掛金",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "割引回収の場合、支店側で受領現金と割引分を分離して記録し、売掛金の減少額と合致させます。"
+  },
+  {
+    "id": "Cw5omKbPX2kMypgq",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "支店が本店から仕入れた商品に関する買掛金¥300,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支店買掛金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "支店側の買掛金支払いは、買掛金の減少と現金の支出として記録します。"
+  },
+  {
+    "id": "oHLhnako8u2Ji1me",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "本店への返品が発生。支店が仕入れた商品の一部¥40,000が不良品として返品されたため、本店側で仕入返品の調整を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店仕入返品",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "支店買掛金",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "返品により、本店側で支店買掛金の一部調整を仕入返品で行い、正確な仕入金額を反映させます。"
+  },
+  {
+    "id": "5Z0eQsVkHcvyQjhA",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "支店で仕入先から受けた手形¥200,000が不渡りとなり、売掛金に再計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支店売掛金",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "支店受取手形",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "不渡り手形は、支店側で再び売掛金として記録し、取引先との債権調整を行います。"
+  },
+  {
+    "id": "4CTAXhvSetYr6OHy",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "支店で販売した商品に対する売掛金¥150,000が回収不能となり、貸倒処理を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "貸倒損失",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売掛金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "回収不能な売掛金は、貸倒損失として費用計上し、支店の売掛金残高を減少させます。"
+  },
+  {
+    "id": "yRKkKROIjNE10EVm",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "支店で発生した売上割引額¥4,000を、本店との内部精算により現金で納付した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "支店売掛金割引",
+        "amount": 4000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 4000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "支店で発生した売上割引は、後日本店へ精算される際に現金支払いで処理されます。"
+  },
+  {
+    "id": "kelyKUU00Ehg8DtV",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "支店の売掛金回収に伴い、一定金額¥50,000が未収収益として計上された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "未収収益",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売上",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "未収収益の計上により、支店の収益認識と未収資産の増加が反映されます。"
+  },
+  {
+    "id": "Ie7m2mNdmiU59Syq",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "支店が本店に対し、預り金（例：売掛金割引、雇用保険料等）の一部¥10,000を送金した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店受取預り金",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "支店預り金",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部分担の振替仕訳により、支店と本店間の預り金が正しく調整されます。"
+  },
+  {
+    "id": "2apOHQUvNypfB4N9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "支店の取引に基づき、法人事業税の見込み額¥70,000を本店で計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人事業税等",
+        "amount": 70000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等引当金",
+        "amount": 70000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "支店の取引状況を踏まえ、本店は法人事業税等の引当を行い、将来の納付額を見込んで会計処理します。"
+  },
+  {
+    "id": "VMPDWEVIc6YnVQTW",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "本体会社（親会社）が子会社に対して、商品¥1,000,000を掛けで販売した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "子会社売掛金",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "本体売上",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結決算では、親子間取引の内部売上は消去するため、内部取引として仮計上されます。"
+  },
+  {
+    "id": "gQOIEcnVbOF2zEk9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "子会社が、本体から受けた商品の仕入れとして、買掛金¥1,000,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "子会社仕入",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社買掛金",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部取引として、子会社の仕入および買掛金も連結上では消去される対象となります。"
+  },
+  {
+    "id": "t10AWwzU6xzwkvyg",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "本体と子会社間の内部売上取引を消去するため、内部取引仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本体売上",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社仕入",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結決算では、親子間の内部取引は消去仕訳を行い、外部取引のみを連結財務諸表に反映させます。"
+  },
+  {
+    "id": "KTCAhq4RjXky0cps",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "子会社が本体に対して、内部取引に基づく未収収益¥80,000を計上していたため、連結調整仕訳で消去した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本体売上",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社未収収益",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部取引に関する未収収益は、親子間で相殺されるため消去仕訳を行います。"
+  },
+  {
+    "id": "cMgLxEBRNNJ627qY",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "子会社が親会社に対して、未払金¥50,000を計上していたが、内部取引のため消去仕訳を実施。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社未払金",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社未払金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部未払金は、連結上で相殺すべき項目となるため、消去仕訳を行います。"
+  },
+  {
+    "id": "HtaF7gPFwfznpNOp",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "本体が子会社に対して、内部債権として¥120,000の貸付金を計上していたが、連結上で内部債権債務は消去する必要があるため仕訳処理。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本体貸付金",
+        "amount": 120000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社借入金",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "親子間の内部貸付は、連結上で債権債務は消去するため、内部取引として調整仕訳を行います。"
+  },
+  {
+    "id": "lLJxkRalZ6H3d1zq",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "親会社が子会社から商品¥300,000を現金回収したが、内部売上があったため連結上で消去する仕訳。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社現金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社売掛金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "親子間の内部現金取引は、連結上で内部売掛金との相殺を通して消去されます。"
+  },
+  {
+    "id": "L48kyjh9PdHTRGAf",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "子会社が親会社から仕入れた商品に関して、買掛金¥700,000が内部取引として計上されていたが、連結で消去する仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社買掛金",
+        "amount": 700000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社仕入",
+        "amount": 700000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結会計では、内部取引（親子間の仕入れ・売上）の買掛金仕入取引は消去仕訳の対象です。"
+  },
+  {
+    "id": "62RrWj53DFmXxtqW",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "子会社が親会社に対して、未払保険料¥25,000を計上していたが、内部債務として消去する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社未払保険料",
+        "amount": 25000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社未払保険料",
+        "amount": 25000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部未払保険料は、親子間で相殺するため消去仕訳を行います。"
+  },
+  {
+    "id": "ZsyxC2jhZ6wHIIUP",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "親会社が子会社向けに内部為替取引を行い、子会社が受け取った手形¥400,000のうち、為替差損¥5,000が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社受取手形",
+        "amount": 400000
+      },
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 5000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社売掛手形",
+        "amount": 405000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部の為替取引において発生した差損は、親子間で消去するための仕訳として記録します。"
+  },
+  {
+    "id": "LtTA3ono3O764NHP",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "親会社が子会社に対して、内部売上に基づく未収収益¥90,000を計上していたため、連結上で消去した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社売上",
+        "amount": 90000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社未収収益",
+        "amount": 90000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部売上に関連する未収収益は、親子間で相殺対象となり、連結決算上消去します。"
+  },
+  {
+    "id": "Bqxg6ANmo0wgpaPx",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "支店が本店に対して、内部債権として¥70,000の売掛金を計上していたが、連結上でこれを消去する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店売掛金",
+        "amount": 70000
+      },
+      {
+        "side": "貸方",
+        "account": "支店売掛金",
+        "amount": 70000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部債権である売掛金は、親子間で相殺するため、連結仕訳により消去します。"
+  },
+  {
+    "id": "EHvV701jeaMHKgSN",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "本店が子会社に対して、内部貸付金¥150,000を計上していたが、連結上でこれを消去する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店貸付金",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社借入金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "親子間の内部貸付は、連結上で相殺し、外部債権債務のみが残るように調整します。"
+  },
+  {
+    "id": "HW7hpQr28zduDHbD",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "子会社が本店に対して、内部取引により発生した消費税仕入控除額¥20,000を送金した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店受取消費税",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社消費税",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結上、内部取引に伴う消費税は、親子間で相殺されるため消去仕訳を行います。"
+  },
+  {
+    "id": "M5rhiqON8AaypjUu",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "本店が連結調整のため、支店における未払金¥30,000を本店へ送金し、内部振替仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "本店未払金",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "支店未払金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結調整では、親子間または本支店間の内部債権債務を消去するための仕訳処理が重要です。"
+  },
+  {
+    "id": "Y650dgXZvhFMLZYb",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "親会社が子会社に製品を600,000円で販売し、そのうち未実現利益80,000円が棚卸資産に含まれている。連結財務諸表作成時の内部取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入",
+        "amount": 600000
+      },
+      {
+        "side": "借方",
+        "account": "棚卸資産",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "内部利益",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結財務諸表作成時は、親子間の内部売上と仕入を相殺し、棚卸資産に織り込まれた未実現利益を除去する必要がある。"
+  },
+  {
+    "id": "JoT8dgAfAqNQH4OE",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "親子間内部取引により発生した売掛金300,000円と買掛金300,000円を相殺する消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結会計では、親子間の内部取引で発生した売掛金と買掛金を相殺することが求められる。"
+  },
+  {
+    "id": "N3hLywn2q07SlJSy",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "子会社が親会社に対して配当金100,000円を支払った内部取引について、連結作成時の消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "受取配当金",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "配当金",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結会計上、内部取引による配当は消去対象となり、親会社側の配当受取と子会社側の配当支払いを相殺する仕訳が必要である。"
+  },
+  {
+    "id": "bMQ68zu5A8hLSeff",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "親会社が子会社に対して短期借入金1,000,000円を貸し出し、子会社がその利息10,000円を計上している。連結時の内部利息消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "受取利息",
+        "amount": 10000
+      },
+      {
+        "side": "貸方",
+        "account": "支払利息",
+        "amount": 10000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "親子間の短期借入に伴う利息収益と費用は、内部取引として連結時に相殺する必要がある。"
+  },
+  {
+    "id": "fSlbTX0k7uWDd0lY",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "親会社が子会社に管理費用として50,000円を請求し、子会社はこれを費用計上している。内部取引の消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "管理収益",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "管理費",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部管理費の取引は、親会社の収益と子会社の費用として計上されるため、連結時に双方の金額を相殺する。"
+  },
+  {
+    "id": "bq7Bm6juuAD7n4y6",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "親会社が子会社に固定資産を1,200,000円で売却し、その際売却益200,000円が計上されている。連結時の内部取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "固定資産売却益",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "固定資産売却損",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部固定資産の売却益は、グループ内取引のため連結時に消去し、外部取引のみを反映させる必要がある。"
+  },
+  {
+    "id": "2LFtbQ9mDMpEK0w0",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "子会社が親会社からの内部販売により、仕入として250,000円を計上。親会社側では同額が売上として計上されている。これら内部取引を消去する仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上",
+        "amount": 250000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入",
+        "amount": 250000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "親子間の内部販売により、売上および仕入がそれぞれ重複計上されるため、連結時には相殺処理を行う。"
+  },
+  {
+    "id": "1hqViAOELkNQceUM",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "親会社が子会社に長期借入金1,000,000円を貸し出している。内部貸付金と借入金の相殺仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "長期借入金",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "貸付金",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "グループ内での貸付金と借入金は、連結財務諸表作成時に内部取引として相殺する必要がある。"
+  },
+  {
+    "id": "CZcHOHzkuTfhmWB9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "子会社が親会社にサービスを提供し、売上100,000円を計上。親会社はその対価として支払手数料100,000円を計上している。内部取引の消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "サービス収益",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "支払手数料",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部サービス取引では、売上と費用が双方で計上されるため、連結時には両者を相殺する必要がある。"
+  },
+  {
+    "id": "KX9nmgAcsR9Yjt22",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "親会社が所有する不動産を子会社に賃貸し、賃貸料60,000円が発生。連結時の内部賃貸取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "賃貸収入",
+        "amount": 60000
+      },
+      {
+        "side": "貸方",
+        "account": "賃貸料",
+        "amount": 60000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部で行われた賃貸取引は、収益と費用が双方で計上されるため連結時に相殺処理する。"
+  },
+  {
+    "id": "hPAksWuzCvcDG3fG",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "子会社が親会社から商品を仕入れ、売上500,000円および未実現利益70,000円が計上されている。連結時の内部取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売上",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入",
+        "amount": 500000
+      },
+      {
+        "side": "借方",
+        "account": "棚卸資産",
+        "amount": 70000
+      },
+      {
+        "side": "貸方",
+        "account": "内部利益",
+        "amount": 70000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部取引に含まれる売上・仕入および棚卸資産内の未実現利益は、連結調整において除去すべき項目である。"
+  },
+  {
+    "id": "Xcfd3xiC9AzLmN77",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "親子間で発生した仲介手数料40,000円について、親会社が手数料収入、子会社が手数料費用を計上。内部取引の消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "手数料収入",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "手数料費用",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部取引に関連する仲介手数料は、収益と費用の両面で計上されるため、連結時に相殺処理する。"
+  },
+  {
+    "id": "xPUiGQMl49ezMaJj",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "子会社が親会社から先に受け取った前受金30,000円について、連結時の内部取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "前受金",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "前受収益",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部取引として計上された前受金は、グループ全体の取引として消去し、外部取引のみ反映する必要がある。"
+  },
+  {
+    "id": "oaiimj82ywVSimVI",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "親会社が子会社に共通費用の按分として20,000円を計上。連結時の内部按分取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "按分収益",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "按分費用",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "共通費用の内部按分に関しては、グループ内計上分を連結時に相殺し、外部との取引だけを反映させる。"
+  },
+  {
+    "id": "7zlfQZQpbR3uFol9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "子会社が親会社からの内部購入に伴い計上した未払費用15,000円について、連結時の内部取引消去仕訳を示しなさい。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "未払費用",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "内部費用",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "内部取引に関連して計上された未払費用は、連結財務諸表作成時に相殺処理する必要がある。"
+  },
+  {
+    "id": "hVGP0r4VsiQSzRwN",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "海外より$20,000の商品を掛けで仕入れた。取引時の為替レートは110円/$で計上する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 2200000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 2200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建取引は、取引時の為替レート（$20,000×110円＝¥2,200,000）で円換算し、仕入（費用）の増加と買掛金（負債）の増加として記録します。"
+  },
+  {
+    "id": "V09clgczRANoMrwJ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "海外のお客様に$15,000の商品を掛けで販売した。記帳時の為替レートは115円/$で計上する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 1725000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 1725000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建売上の場合、取引日の為替レート（$15,000×115円＝¥1,725,000）で円換算し、売掛金（資産）の増加と売上（収益）の増加を記録します。"
+  },
+  {
+    "id": "lXoow81ZOhoMn7zs",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "以前に$20,000で掛け購入した商品の決済時、為替レートが112円/$に上昇。初回計上時は110円/$で計上していたため、買掛金の円換算額は1,176,000円（20,000×110）から1,240,000円（20,000×112）となり、差額40,000円の為替差損が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "決済時の為替上昇により、買掛金の円換算額が増加した差額は、為替差損として記録されます。"
+  },
+  {
+    "id": "gY9QoEdTi53RAhc3",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "海外で掛け販売していた商品の売掛金$10,000の計上時、初回の為替レートは120円/$（計1,200,000円）でしたが、決済時の為替レートが118円/$に低下。決済時の円換算額は1,180,000円となり、差額20,000円の為替差益が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "為替差益",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売掛金の円換算額が決済時に低下した場合、その差額は為替差益として計上され、売掛金の記録を調整します。"
+  },
+  {
+    "id": "fRl06c9FEnwexzbe",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "期末において、買掛金$15,000の再計算時、記帳時の為替レートは120円/$で計上されていたが、期末為替レートが122円/$に上昇した。これにより、買掛金の円換算額が15,000×(122-120)=30,000円増加した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "期末再評価により買掛金の円換算額が増加した場合は、その差額を為替差損として記録します。"
+  },
+  {
+    "id": "eDMDHQCBNeuDrKzs",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "海外のお客様から$8,000の代金を売掛金として計上済みだったが、決済時の為替レートは115円/$で実際に受領され、現金は8,000×115=920,000円となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 920000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 920000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建売掛金の回収は、決済時の為替レートで円換算し、現金の受領と売掛金の減少として記録します。"
+  },
+  {
+    "id": "gkP4mAkmgYnDNelo",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "海外顧客への商品販売取引として、$6,000分の商品を掛け販売。記帳時の為替レートは100円/$とする。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 600000
+      },
+      {
+        "side": "貸方",
+        "account": "売上",
+        "amount": 600000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建売上は、取引日の為替レートで円換算し、売掛金および売上として記録します（6,000×100円）。"
+  },
+  {
+    "id": "UZmuMST5F5np91d0",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "海外顧客から$5,000の前受金を受領した。取引時の為替レートは102円/$で計上する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 510000
+      },
+      {
+        "side": "貸方",
+        "account": "前受金",
+        "amount": 510000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建前受金は、受領時の為替レートに基づき円換算し、現金および前受金として記録します。"
+  },
+  {
+    "id": "Jd9jA0hgtcyO5xeR",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "海外仕入取引により$12,000の商品を掛けで購入。記帳時の為替レートは98円/$とし、計1,176,000円で計上していたが、決済時の為替レートが97円/$となり、実際の買掛金は1,164,000円となった。差額12,000円の為替差益が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "為替差益",
+        "amount": 12000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "為替レートの低下により、外貨建買掛金の円換算額が減少した場合、その差額は為替差益として記録します。"
+  },
+  {
+    "id": "2hHXTlcFsgTFb6js",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "期末に再評価するため、海外売掛金$7,000を新たな為替レート105円/$で計算したところ、前回計上額は7,000×104＝728,000円であった。差額は7,000円の為替差益となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 7000
+      },
+      {
+        "side": "貸方",
+        "account": "為替差益",
+        "amount": 7000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "期末再評価で外国貨幣建債権の円換算額が増加した場合、増加分は為替差益として記録します。"
+  },
+  {
+    "id": "0tGsKNeFtveRTgVZ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "子会社が外貨建で商品を購買し、買掛金$8,000を掛けで計上。決済時の為替レートは105円/$となり、実際の買掛金は840,000円となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 840000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 840000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建買掛金は、決済時の為替レートで円換算して現金支払いとして処理されます（8,000×105=840,000円）。"
+  },
+  {
+    "id": "XR4W1NAm94ND3m33",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "海外顧客への売上において、$12,000建売掛金を計上していたが、決済時の為替レートが116円/$となり、実際の受領額は1,392,000円（12,000×116）となった。記帳時は118円/$（1,416,000円）で計上していたため、差額24,000円の為替差損が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 24000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 24000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "受領時の為替レート低下により、売掛金の円換算額が減少した差額は為替差損として記録します。"
+  },
+  {
+    "id": "XQq4YnlOvswH1Mr4",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "海外取引により、親会社が$10,000建商品を掛けで仕入れた。取引時の為替レートは120円/$で計上していたが、期末の再評価で為替レートが123円/$となり、買掛金の円換算額が増加、差額は10,000×(123-120)=30,000円の為替差損となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "再評価により買掛金の円換算額が増加した場合、その差額は為替差損として記録します。"
+  },
+  {
+    "id": "D3Z8R0ZrwZGHLvaw",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "子会社が保有する外貨建売掛金$10,000の期末再評価で、為替レートが115円/$となり、記帳時のレート113円/$との差額により、差額（10,000×(115-113)=20,000円）の為替差益が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売掛金",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "為替差益",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "期末再評価で売掛金の円換算額が増加した場合、その差額は為替差益として計上します。"
+  },
+  {
+    "id": "pRF6n9dbTHqcv4hc",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "親子間の外貨建取引として、親会社が子会社に対して$15,000の売掛金を計上していた。記帳時為替換算額は1,725,000円であったが、連結決算時に内部取引として完全に消去する仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "親会社売掛金",
+        "amount": 1725000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社売掛金",
+        "amount": 1725000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "連結会計では、親子間の外貨建取引に係る売掛金は、相殺仕訳により消去されます。"
+  },
+  {
+    "id": "CYcBoGaf7uFfoKII",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "企業が売買有価証券として、株式を現金で¥1,000,000で購入した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売買有価証券",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 1000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売買有価証券の購入は、取得原価で計上し、現金の減少を記録します。"
+  },
+  {
+    "id": "BlPts22iEjdOeMfB",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "企業が売買有価証券を掛けで購入した。計上時は¥1,200,000で記帳する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "売買有価証券",
+        "amount": 1200000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 1200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "外貨建取引でなくても、掛け取引での有価証券購入は、取得原価で仕入計上し、買掛金（負債）として記録します。"
+  },
+  {
+    "id": "FKHaRlsA0ZRORM9v",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "保有していた売買有価証券を売却し、売却額¥1,400,000で現金受領、簿価は¥1,200,000であった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 1400000
+      },
+      {
+        "side": "貸方",
+        "account": "売買有価証券",
+        "amount": 1200000
+      },
+      {
+        "side": "貸方",
+        "account": "有価証券売却益",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "有価証券売却時は、帳簿価額で除却し、受領金額との差額を売却益として計上します。"
+  },
+  {
+    "id": "wV4Vcd0VIrh0I0xI",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "保有していた売買有価証券を売却し、売却額¥950,000で現金受領、簿価は¥1,100,000であった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "有価証券売却損",
+        "amount": 150000
+      },
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 950000
+      },
+      {
+        "side": "貸方",
+        "account": "売買有価証券",
+        "amount": 1100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売却損は、現金受領額と帳簿価額との差額として計上します。"
+  },
+  {
+    "id": "NDCGidVrYm6SG9fe",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "保有する株式から配当金¥50,000を現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "受取配当金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "配当金受領は、現金の増加と受取配当金として収益（またはその他収益）の増加を記録します。"
+  },
+  {
+    "id": "Mqy1wKKRctE73kNF",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "保有する債券から利子¥80,000を現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 80000
+      },
+      {
+        "side": "貸方",
+        "account": "受取利息",
+        "amount": 80000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "債券利息受領は、現金の増加と受取利息の増加を記録します。"
+  },
+  {
+    "id": "sCBI7N6Dvc6jtIxY",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "満期まで保有する目的で、額面¥2,500,000の社債を¥2,400,000で購入し、代金は現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "満期保有目的債券",
+        "amount": 2400000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 2400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "満期保有目的の債券は、取得原価で満期保有目的債券（資産）として計上します。額面との差額¥100,000は、償却原価法により満期までの期間にわたって帳簿価額に加算していきます。"
+  },
+  {
+    "id": "dog00eHDhMG4CDKs",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "期末評価により、保有する売買有価証券の時価が帳簿価額を¥150,000上回ったため、評価益を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "有価証券",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "有価証券評価差額金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "未実現評価益は、売買有価証券の帳簿価額調整のため、評価差額として計上します。"
+  },
+  {
+    "id": "398QpW4C82FIeMUU",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "期末評価により、保有する有価証券の時価が帳簿価額を¥200,000下回ったため、評価損を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "有価証券評価損",
+        "amount": 200000
+      },
+      {
+        "side": "貸方",
+        "account": "有価証券評価差額金",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "未実現評価損は、保有証券の帳簿価額を市場価値に調整するために計上されます。"
+  },
+  {
+    "id": "kd7nOd47GdkmXGOI",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "保有していた売買有価証券を売却し、売却額¥1,400,000、簿価¥1,200,000であった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 1400000
+      },
+      {
+        "side": "貸方",
+        "account": "売買有価証券",
+        "amount": 1200000
+      },
+      {
+        "side": "貸方",
+        "account": "有価証券売却益",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売却時には、保有していた有価証券は帳簿価額で除却し、差額を売却益として計上します。"
+  },
+  {
+    "id": "aPuRH5rktn08ds4W",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "保有していた売買有価証券を売却し、売却額¥950,000、簿価¥1,100,000であった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "有価証券売却損",
+        "amount": 150000
+      },
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 950000
+      },
+      {
+        "side": "貸方",
+        "account": "売買有価証券",
+        "amount": 1100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "売却損は、帳簿価額と実際の受領額との差額として計上します。"
+  },
+  {
+    "id": "rkB7c1NF4DqnsnW8",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "保有株式から配当金¥30,000を現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "受取配当金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "配当金受領は、現金の増加と受取配当金の増加（または収益）として記録します。"
+  },
+  {
+    "id": "RVYCUhpKkdVX8WaK",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "保有する債券から受取利息¥40,000を現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 40000
+      },
+      {
+        "side": "貸方",
+        "account": "受取利息",
+        "amount": 40000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "債券からの利息受領は、現金の増加と受取利息の増加として記録します。"
+  },
+  {
+    "id": "zfepvN0BYeSWMLJn",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "企業が保有する売買有価証券を、長期保有目的の有価証券に再分類した。計上額は¥800,000。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "長期有価証券",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "売買有価証券",
+        "amount": 800000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "再分類仕訳により、保有目的に応じた勘定科目に振替え、資産の管理区分を正確に反映させます。"
+  },
+  {
+    "id": "2iuqHbdR4EkzC5hH",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "保有する社債の回収可能価額が簿価を¥50,000下回ったため、減損損失を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "有価証券減損損失",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "有価証券",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "減損処理により、有価証券の帳簿価値を回収可能価額まで下げ、その差額を減損損失として計上します。"
+  },
+  {
+    "id": "93Vhp2v4tGGeF8RS",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "企業が財務リース契約により、機械装置を取得する。リース資産として計上する金額（取得原価）は¥3,000,000、リース債務も同額で計上する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース資産",
+        "amount": 3000000
+      },
+      {
+        "side": "貸方",
+        "account": "リース債務",
+        "amount": 3000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "財務リースの場合、取得時にリース資産とリース債務を同額で計上します。"
+  },
+  {
+    "id": "t7wv2sOyzmh3cRzg",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "企業がオペレーティングリース契約により、オフィスの賃借料として月額¥150,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース料",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "オペレーティングリースの場合、リース料は発生時に費用として計上し、現金支払いとともに処理します。"
+  },
+  {
+    "id": "6lx27V8jVtAT0DRx",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "財務リース契約に基づく月次リース支払額¥400,000について、内訳は利息¥70,000、元本返済¥330,000であった。現金で支払った場合の仕訳処理を行え。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース債務",
+        "amount": 330000
+      },
+      {
+        "side": "借方",
+        "account": "支払利息",
+        "amount": 70000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "リース支払額は、元本返済分と利息分に分割して記録します。"
+  },
+  {
+    "id": "SByJRNCnHfENsEgZ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "財務リースの機械装置について、月次の減価償却費¥180,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "減価償却費",
+        "amount": 180000
+      },
+      {
+        "side": "貸方",
+        "account": "リース資産減価償却累計",
+        "amount": 180000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "財務リース資産は固定資産同様、通常の減価償却方法により償却し、減価償却累計として蓄積します。"
+  },
+  {
+    "id": "vQVcW6FsrOosoSuK",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "リース契約締結時に、初期直接費¥50,000を現金で支出し、これをリース資産に資本化した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース資産",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "初期直接費はリース資産の取得原価に加算して計上します。"
+  },
+  {
+    "id": "RbBXNum5qLMP75WB",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "リース契約改定により、既存のリース債務が¥100,000減少した。内部調整仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース債務",
+        "amount": 100000
+      },
+      {
+        "side": "貸方",
+        "account": "リース債務調整益",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "契約条件の変更でリース債務が減少した分は、差額を内部調整勘定（リース債務調整益）に計上します。"
+  },
+  {
+    "id": "MDiKzwmwoprWBT08",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "リース契約終了に伴い、残存リース資産の帳簿価額¥500,000を除却した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース資産売却損",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "リース資産",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "リース契約終了後、返却等によりリース資産を除却する場合、残存簿価額を売却損または除却損として計上します。"
+  },
+  {
+    "id": "n8O2ZYjS8B1aXLdV",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "リース契約開始時、本体が子会社に対してリース資産¥3,500,000を提供し、同額のリース債務を計上した（連結子会社の場合）。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "子会社リース資産",
+        "amount": 3500000
+      },
+      {
+        "side": "貸方",
+        "account": "子会社リース債務",
+        "amount": 3500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "親子間の財務リース取引では、リース資産とリース債務を双方で計上し、連結調整の対象となります。"
+  },
+  {
+    "id": "FA6beyBxyEFAnunQ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "リース支払において、月次支払額¥400,000のうち、利息¥60,000、元本返済¥340,000であった。現金で支払った仕訳を作成せよ。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース債務",
+        "amount": 340000
+      },
+      {
+        "side": "借方",
+        "account": "支払利息",
+        "amount": 60000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "リース支払は、元本返済分と利息分に分割して記録します。"
+  },
+  {
+    "id": "ZWtodEelq7eCJ9FU",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "オペレーティングリース契約により、リース料¥120,000を現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース料",
+        "amount": 120000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "オペレーティングリース契約では、リース料を費用として計上し、現金支払いとともに処理します。"
+  },
+  {
+    "id": "Fc4xNgM0RucH2Xra",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "リース資産に対する初期直接費（設置費用）¥50,000を現金で支出し、リース資産に加算した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース資産",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "初期直接費は、リース資産の取得原価に含めて資本化します。"
+  },
+  {
+    "id": "8sSW6NB3DHeRIpR2",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "リース契約の改定により、リース期間延長で追加のリース債務¥150,000が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース資産",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "リース債務",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "リース条件の変更に伴う追加債務は、リース資産およびリース債務として新たに計上します。"
+  },
+  {
+    "id": "22WYs1pxcjTVQi0B",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "リース契約終了時、残存価値¥500,000の機械装置を返却し、リース債務は既に清算済みであった。帳簿上の残存資産を除却する仕訳を行え。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース資産売却損",
+        "amount": 500000
+      },
+      {
+        "side": "貸方",
+        "account": "リース資産",
+        "amount": 500000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "リース終了後、返却によりリース資産を除却し、残高分を売却損または除却損として計上します。"
+  },
+  {
+    "id": "6tpiaflTajSLNTmJ",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "リース契約に伴い、保証金として¥300,000を現金で預け入れた。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "リース保証金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "リース保証金は預託金として資産計上され、後日返還される際に相殺されます。"
+  },
+  {
+    "id": "6SPdF5e84rhxorNx",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "リース契約終了時に、保証金¥300,000が返還された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "リース保証金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "保証金返還時は、預託金（リース保証金）を相殺し、現金の増加として記録します。"
+  },
+  {
+    "id": "XVz1muinDG3P1ktW",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-01",
+    "description": "株式会社Aは新株発行により、資本金¥2,000,000の額面で新株を発行し、募集株式の引受人から現金¥2,200,000を受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 2200000
+      },
+      {
+        "side": "貸方",
+        "account": "資本金",
+        "amount": 2000000
+      },
+      {
+        "side": "貸方",
+        "account": "資本準備金",
+        "amount": 200000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "新株発行取引では、受領現金が額面（金額）と発行プレミアム（資本準備金）の合計となるため、適切な勘定科目に振り分けが必要です。"
+  },
+  {
+    "id": "AemkWCoXAJqKRk2p",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-02",
+    "description": "株式会社Bは期末において、所有する機械設備の再評価を実施し、再評価差額¥150,000を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "機械設備",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "再評価差額金",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "再評価取引では、実在する資産の時価との差額を資産勘定に振り替え、差額は再評価差額金として計上し、資本上の修正を行います。"
+  },
+  {
+    "id": "FrAuu71j6idfWolI",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-03",
+    "description": "株式会社Cは売掛金¥250,000のうち、回収不能と判断された¥50,000について、貸倒処理を実施した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "貸倒損失",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 50000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "回収不能な売掛金に対しては、貸倒損失として処理し、債権の減少を明確に反映させます。"
+  },
+  {
+    "id": "vRCXwjQW98du2ljR",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-04",
+    "description": "株式会社Dは海外仕入取引において、USD30,000の商品を掛け購入。初回記帳時は為替レート245円/USDで計上していたが、決済時の為替レート248円/USDにより買掛金の円換算額が¥30,000増加し、為替差損が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "為替変動により、掛取引時の円換算額が増加した差額は、為替差損として費用計上し、買掛金残高に反映させます。"
+  },
+  {
+    "id": "lVbj2JxUvEKj7NzH",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-05",
+    "description": "株式会社Eは、以前に代金分割払いの条件で販売した商品の売掛金のうち、第1回分¥800,000と、これに対する利息¥100,000を現金で受け取った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 900000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛金",
+        "amount": 800000
+      },
+      {
+        "side": "貸方",
+        "account": "受取利息",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "分割払いの代金を回収したときは売掛金を減らし、あわせて受け取った利息は受取利息（収益）として計上します。"
+  },
+  {
+    "id": "xT3UUhO9JzlMW0uF",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-06",
+    "description": "株式会社Fは買掛金の支払いに際し、小切手で支払った。支払い額は¥900,000で、振出手数料¥8,000が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 900000
+      },
+      {
+        "side": "借方",
+        "account": "支払手数料",
+        "amount": 8000
+      },
+      {
+        "side": "貸方",
+        "account": "普通預金",
+        "amount": 908000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "小切手支払いでは、買掛金の減少とともに、手数料が費用計上され、普通預金から合計金額が減少します。"
+  },
+  {
+    "id": "sld3mbfKREaNaN44",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-07",
+    "description": "株式会社Gは商品仕入れに対する買掛金¥1,000,000の取引について、仕入割戻し¥20,000と早期現金支払いによる支払割引¥15,000が認められ、実際の現金支払いは¥965,000となった。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 20000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 15000
+      },
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 965000
+      },
+      {
+        "side": "貸方",
+        "account": "仕入割戻",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "支払割引",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 965000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "複合取引の場合、仕入割戻しおよび支払割引を適用し、実際の現金支払い額に合わせた買掛金の減少を正確に反映させます。"
+  },
+  {
+    "id": "4rqw54Eg5ejXjE2Z",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-08",
+    "description": "株式会社Hは決算日において、棚卸資産が実在数量より¥120,000多計上されていたため、減耗分として棚卸減耗損の仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "棚卸減耗損",
+        "amount": 120000
+      },
+      {
+        "side": "貸方",
+        "account": "棚卸資産",
+        "amount": 120000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "棚卸減耗損仕訳により、実在する在庫との差異を補正し、在庫評価の正確性を確保します。"
+  },
+  {
+    "id": "1Uagpt8kcNiXSJDX",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-09",
+    "description": "株式会社Iは顧客から受け取った手形¥400,000を現金割引により換金したが、換金時に為替差損¥8,000が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 392000
+      },
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 8000
+      },
+      {
+        "side": "貸方",
+        "account": "売掛手形",
+        "amount": 400000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "手形の現金割引換金時に、受領金額が手形面額を下回った差額は為替差損として処理します。"
+  },
+  {
+    "id": "K6BnYRStF9iK6m0Z",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-10",
+    "description": "株式会社Jは海外からの商品を掛け購入。商品代金¥2,000,000に加え、関税¥100,000と運賃¥50,000が発生し、合計¥2,150,000が買掛金として計上された。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "仕入",
+        "amount": 2000000
+      },
+      {
+        "side": "借方",
+        "account": "関税",
+        "amount": 100000
+      },
+      {
+        "side": "借方",
+        "account": "運賃",
+        "amount": 50000
+      },
+      {
+        "side": "貸方",
+        "account": "買掛金",
+        "amount": 2150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "海外仕入取引では、商品代金に関税および運賃を含めた総額を買掛金として計上する必要があります。"
+  },
+  {
+    "id": "dVLjFfPfYYuckixm",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-11",
+    "description": "株式会社Kは期末において利益処分として配当金¥300,000を宣言し、株主に現金で支払った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "利益剰余金",
+        "amount": 300000
+      },
+      {
+        "side": "貸方",
+        "account": "現金",
+        "amount": 300000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "配当金の支払いは、利益剰余金の減少と現金の減少として記録し、株主への分配を反映させます。"
+  },
+  {
+    "id": "VPY3ewAJrZXZVXY7",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-12",
+    "description": "株式会社Lは社債を額面¥5,000,000で発行し、発行費用¥150,000を差し引いた実際の受領額¥4,850,000を現金で受領した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 4850000
+      },
+      {
+        "side": "借方",
+        "account": "発行費",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "社債",
+        "amount": 5000000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "社債発行時は、受領現金が額面から発行費用を控除した金額となり、発行費は費用または繰延資産として処理される点に留意します。"
+  },
+  {
+    "id": "ubeRmrzicWbDTRnv",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-13",
+    "description": "株式会社Mは海外顧客からの受取手形について、決算日の為替レート変更により¥15,000の評価損が発生したため、調整仕訳を行った。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "為替差損",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "受取手形",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "決算時の為替換算差額について、受取手形の円換算額が下落した分を為替差損として処理します。"
+  },
+  {
+    "id": "OAexI4YgvnfFnEtM",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-14",
+    "description": "株式会社Nは海外仕入れの一部について、買掛金USD15,000の決済時、為替変動により円換算額が¥20,000減少し、為替差益が発生した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "買掛金",
+        "amount": 20000
+      },
+      {
+        "side": "貸方",
+        "account": "為替差益",
+        "amount": 20000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "決済時に為替変動で買掛金の円換算額が減少した場合、その差額は為替差益として利益に反映させます。"
+  },
+  {
+    "id": "dwn0MQ0G0Hfu4sm9",
+    "level": "簿記2級",
+    "transaction_date": "2025-06-15",
+    "description": "株式会社Oは保有していた自己株式を売却し、売却時の現金受領額が取得原価を¥100,000上回ったため、自己株式売却差益を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "現金",
+        "amount": 1100000
+      },
+      {
+        "side": "貸方",
+        "account": "自己株式",
+        "amount": 1000000
+      },
+      {
+        "side": "貸方",
+        "account": "自己株式売却差益",
+        "amount": 100000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "自己株式の売却により、受領現金と自己株式の帳簿価額との差額を売却差益として計上し、資本取引として反映させます。"
+  },
+  {
+    "id": "RQRXPX3qaFQcZUPU",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-01",
+    "description": "決算時、固定資産の減価償却において、帳簿上は¥200,000の減価償却が計上されているが、税務上は¥250,000が認められている。差額¥50,000に対し法人税率30%を乗じた結果、将来納付すべき税金の増加分として¥15,000の繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "税務上の減価償却が帳簿上を上回ると、将来反対の効果で税負担が増加するため、差額に基づく繰延税金負債を認識します。"
+  },
+  {
+    "id": "f7mWr2obf1TNBKER",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-02",
+    "description": "決算時、保証引当金として¥100,000を帳簿上計上しているが、税務上は実際支出時のみ損金算入のため控除されず、将来の控除効果として法人税率30%を適用し、¥30,000の繰延税金資産を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "繰延税金資産",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等調整額",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "保証引当金は、会計上認識されるが税務上は支出時に控除されるため、将来の税効果により繰延税金資産を認識します。"
+  },
+  {
+    "id": "R1ePmpiU6bXHGn6R",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-03",
+    "description": "決算時、在庫の帳簿評価額が¥1,000,000であるのに対し、税務上は¥950,000となっている。差額¥50,000に対し法人税率30%を適用し、将来の税負担増加分として¥15,000の繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 15000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 15000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "在庫の帳簿評価が税評価を上回る場合、将来その差額が課税されるため、繰延税金負債として計上します。"
+  },
+  {
+    "id": "IAjrRKBMj73gfwkN",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-04",
+    "description": "決算時、無形固定資産の減価償却額は帳簿上¥80,000なのに対し、税務上は¥60,000が認められた。差額¥20,000×30%で¥6,000の繰延税金資産を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "繰延税金資産",
+        "amount": 6000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等調整額",
+        "amount": 6000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "無形固定資産の帳簿減価償却が税務上の控除額を超える場合、将来控除可能な差額として繰延税金資産を認識します。"
+  },
+  {
+    "id": "eG8Vis7o7dw5i4A9",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-05",
+    "description": "決算時、会議費等の一部¥40,000が帳簿上費用計上されているが、税務上は損金不算入となった。法人税率30%で¥12,000の将来税負担増加分として繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 12000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "損金不算入項目は、帳簿上費用計上されるものの税務上認められないため、将来の税負担増加分として繰延税金負債を認識します。"
+  },
+  {
+    "id": "Q4S130q0DB4NWkt9",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-06",
+    "description": "期末に、税務上認められる損失繰越が¥200,000存在するが、帳簿上には反映されていなかったため、将来の法人税軽減効果として¥60,000（200,000×30%）の繰延税金資産を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "繰延税金資産",
+        "amount": 60000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等調整額",
+        "amount": 60000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "損失繰越により将来の税金が軽減される効果を、帳簿上未反映の一時差異として繰延税金資産に計上します。"
+  },
+  {
+    "id": "Rt1CwDhEtUR0SHGW",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-07",
+    "description": "前期に計上していた繰延税金資産¥30,000のうち、一部が実現に伴い戻転したため、当期の法人税効果として¥30,000を繰延税金資産から戻転処理した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 30000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金資産",
+        "amount": 30000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "過去に認識した繰延税金資産が戻転する場合、その戻転額を法人税等調整額に振替処理します。"
+  },
+  {
+    "id": "xNE9iwuAHi67ybz9",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-08",
+    "description": "決算にあたり、当期に計上した貸倒引当金繰入額のうち¥150,000が税法上の損金に算入されなかった。法定実効税率30%として税効果会計を適用する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "繰延税金資産",
+        "amount": 45000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等調整額",
+        "amount": 45000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "損金不算入となった引当金の繰入額は将来減算一時差異となるため、一時差異¥150,000に税率30%を掛けた¥45,000を繰延税金資産として計上し、相手勘定は法人税等調整額とします。"
+  },
+  {
+    "id": "1YMeH0U5zSOhBrrH",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-09",
+    "description": "決算時、貸倒引当金として¥70,000を帳簿上計上しているが、税務上は実際の損失が発生するまで控除されないため、¥70,000×30%の¥21,000の繰延税金資産を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "繰延税金資産",
+        "amount": 21000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等調整額",
+        "amount": 21000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "貸倒引当金は、将来実際の貸倒損失発生時に税効果が現れるため、一時差異として繰延税金資産を認識します。"
+  },
+  {
+    "id": "RGMOfXEjCpX1RuDa",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-10",
+    "description": "決算時、保有している土地について帳簿上再評価により¥500,000の評価増加を計上したが、税務上は再評価が認められていない。法人税率30%で¥150,000の将来課税効果として繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 150000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 150000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "再評価差額は税務上認められないため、将来の課税増加分として繰延税金負債を認識します。"
+  },
+  {
+    "id": "m1BcwmkqJ5xMM2lM",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-11",
+    "description": "研究開発費として資産計上した¥300,000が、税務上は一括損金算入されているため、将来の税効果により¥300,000×30%の¥90,000の繰延税金資産を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "繰延税金資産",
+        "amount": 90000
+      },
+      {
+        "side": "貸方",
+        "account": "法人税等調整額",
+        "amount": 90000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "資産計上した研究開発費が税務上一括損金算入されると、将来の法人税軽減効果として繰延税金資産が認識されます。"
+  },
+  {
+    "id": "EWGSR8zh3wERmxcc",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-12",
+    "description": "代金を分割で受け取る契約に関する利息¥40,000を当期の収益として計上したが、税務上は次期の益金となる。法定実効税率30%として税効果会計を適用する。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 12000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 12000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "会計上の収益計上が税務より早い場合は将来加算一時差異となるため、一時差異¥40,000に税率30%を掛けた¥12,000を繰延税金負債として計上し、相手勘定は法人税等調整額とします。"
+  },
+  {
+    "id": "d7HiYXugdkJeFpmg",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-13",
+    "description": "決算時、役員退職慰労引当金として¥120,000を計上しているが、税務上は一定条件を満たさず控除されないため、¥120,000×30%の¥36,000の繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 36000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 36000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "役員退職慰労引当金の税務上認識基準の違いにより、将来課税される差額として繰延税金負債を認識します。"
+  },
+  {
+    "id": "XOXk6Qp90urEIMMb",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-14",
+    "description": "委託販売により売上の一部は帳簿上は既に認識されているが、税務上は受領時に認識されるため、¥80,000の一時差異が発生。法人税率30%により¥24,000の繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 24000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 24000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "収益認識時期のずれにより、将来課税のタイミングが変更されるため、繰延税金負債として処理します。"
+  },
+  {
+    "id": "nXpoJzbGFrXdMnyF",
+    "level": "簿記2級",
+    "transaction_date": "2025-07-15",
+    "description": "前払費用として¥90,000を計上しているが、税務上は費用発生時にのみ損金算入されるため、差額¥90,000×30%の¥27,000の一時差異が生じ、将来の税負担増加分として繰延税金負債を計上した。",
+    "entries": [
+      {
+        "side": "借方",
+        "account": "法人税等調整額",
+        "amount": 27000
+      },
+      {
+        "side": "貸方",
+        "account": "繰延税金負債",
+        "amount": 27000
+      }
+    ],
+    "bookkeepingType": "商業簿記",
+    "feedback": "前払費用については、会計上は資産計上されるが税務上は後日費用化されるため、将来の課税負担増加分として繰延税金負債を認識します。"
+  }
+]
